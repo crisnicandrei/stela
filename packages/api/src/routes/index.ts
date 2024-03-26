@@ -6,7 +6,7 @@ import { accountController } from "../account";
 import { archiveController } from "../archive";
 import { adminController } from "../admin";
 import { billingController } from "../billing";
-import { idpUser } from "../idpuser";
+import { idpUserController } from "../idpuser";
 
 const apiRoutes = express.Router();
 apiRoutes.get("/health", healthController.getHealth);
